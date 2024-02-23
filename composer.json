@@ -1,0 +1,29 @@
+{
+    "name": "cyberindav/xplore",
+    "description": "Laravel String Convertion libraries",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cyberindav"
+        }
+    ],
+    "version":"1.0.2",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "cyberindav\\xplore\\": "src/"
+        },
+        "files": [
+            "src/StrHp.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "cyberindav\\xplore\\StringyPr\\Stp"
+            ]
+        }
+    }
+}
